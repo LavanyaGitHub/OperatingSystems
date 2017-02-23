@@ -127,7 +127,7 @@ def runshell(cmd):
 	  if '>' in cmd:
                 if(len(c)==3):
                         p=cmd.split(">")
-						p[0]=p[0].strip(" ")
+			p[0]=p[0].strip(" ")
                         t=threading.Thread(target=redirect,args=(c[0],c[2],))
                         t.start()
                         t.join()
@@ -143,10 +143,10 @@ def runshell(cmd):
                         p=cmd.split(">")
                         p[0]=p[0].strip(" ")
                         c=threading.Thread(target=redirect,args=(p[0],c[4],))
-						c.start()
-						c.join()
-				elif(len(c)!=5):
-					runshell(cmd)
+			c.start()
+			c.join()
+		elif(len(c)!=5):
+			runshell(cmd)
 	  elif '|' in cmd:
 		 c=cmd.split("|")
 		 c[0]=c[0].strip(" ")

@@ -1,6 +1,13 @@
+"""@
+Name: ls
+#Description:It displays the existing files and directories
+#parameters:none 
+"""
+import threading
+import os
+import sys
+from subprocess import check_output
+
 def ls():
-        for dirname, dirnames, filenames in os.walk('.'):
-            for subdirname in dirnames:
-                print(os.path.join(dirname,subdirname))
-        for filename in filenames:
-            print(os.path.join(dirname, filename))
+			dir_contents = check_output(['ls'])
+			print dir_contents

@@ -1,3 +1,13 @@
+"""@
+#Name:head
+#Description:It displays the first n number of lines in the given file
+#parameters:filename
+"""
+
+import threading
+import os
+import sys
+
 def head(filename):
 	  if os.path.exists(filename):
                 nlines=10

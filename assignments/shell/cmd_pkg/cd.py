@@ -1,3 +1,14 @@
+"""@
+#Name:cd
+#Description:cd- directory:changes to specified-directory,
+#cd..-change to parent directory,c
+#d~-change to home-directory
+@parameters: directory
+"""
+import threading
+import os
+import sys
+
 def cd(directory):
         if directory=='..':
             os.chdir('..')

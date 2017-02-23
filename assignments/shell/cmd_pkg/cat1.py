@@ -1,7 +1,14 @@
+"""@
+#Name: cat1
+#Description:This combines the data in filename1 and filename2 to destination file
+#parameters:filename1,filename2,destination final
+"""
 #!/usr/bin/env python
 import os
 import sys
 import threading
+from cmd_pkg import cat
+
 def cat1(filename1,filename2,filedest):
      if os.path.exists(filename1):
 	if os.path.exists(filename2):

@@ -1,3 +1,13 @@
+
+""" @
+Name:tail
+#Description:It displays the last n number of lines in the given file
+#parameters:filename
+"""
+import threading
+import os
+import sys
+
 def tail(filename):
 	 if os.path.exists(filename):
 		nlines=-10

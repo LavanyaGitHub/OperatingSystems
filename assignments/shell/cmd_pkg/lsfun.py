@@ -1,3 +1,15 @@
+"""@
+#Name:ls-a,ls-l
+#Description:ls-a: displays all hidden files
+#ls-l: long listing
+#parameters:flag (The command to be executed in within ls)
+"""
+import threading
+import os
+import sys
+import stat
+import time
+
 def lsfun(flag):
         files_list=[]
         for filename in os.listdir('.'):

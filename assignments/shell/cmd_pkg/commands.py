@@ -1,3 +1,6 @@
+"""
+This is the list of all the commands that are embedded in cmd_pkg and are invoked from driver.py
+"""
 #!/usr/bin/env python
 import os
 import sys
@@ -17,7 +20,10 @@ from cmd_pkg import mv
 from cmd_pkg import cp
 from cmd_pkg import lsfun
 from cmd_pkg import who
-from ls import ls
-from history import history
-from cat import cat
-from cat1 import cat1
+from cmd_pkg import ls
+# from cmd_pkg import previoushistory
+from cmd_pkg import cat
+from cmd_pkg import cat1
+from cmd_pkg import tail
+
+

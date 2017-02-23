@@ -1,3 +1,13 @@
+"""@
+#Name:cp
+#Description:copies the contents of one file to other
+#parameters:filename1,filename2
+"""
+
+import threading
+import os
+import sys
+
 def cp(filename1,filename2):
         path=os.getcwd()
         conc=path+'\%s'%filename1

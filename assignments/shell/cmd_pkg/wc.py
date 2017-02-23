@@ -1,3 +1,12 @@
+"""@
+#Name:wc
+#Description:counts the number of words in a given file
+#parameters: file
+"""
+import threading
+import os
+import sys
+
 def wc(file):
         if(os.path.isfile(file)):
             num_lines = 0

@@ -2,7 +2,7 @@
 Report: 
 Project Title: Shell Implementation
 Date : 02/ 23/ 2017
-Group : 1.Keerthi Reddy Gangidi
+Group :	        1.Keerthi Reddy Gangidi
 		2.Lavanya Mengaraboina
 		3.Shaila Mogalapu
 Commands Implemented: 

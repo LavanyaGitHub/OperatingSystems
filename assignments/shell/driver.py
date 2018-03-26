@@ -2,9 +2,9 @@
 Report: 
 Project Title: Shell Implementation
 Date : 02/ 23/ 2017
-Group :	        1.Lavanya Mengaraboina
-		2.Shaila Mogalapu
-		3.Keerthi Reddy Gangidi
+Group :	        1.Lavanya 
+		2.Shaila 
+		3.Keerthi 
 Commands Implemented: 
 1. ls                           8.  rm                     15. wc                               22.!x
 2. ls -l                        9.  rmdir                  16. command1 | command2              23.cmnd > file

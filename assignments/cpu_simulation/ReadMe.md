@@ -1,10 +1,10 @@
 >Group Members
 >
-| Name    | Email   | Github Username |
-|----------|---------|-----------------|
-|  Keerthi Reddy Gangidi  | kittu.tintu07@gmail.com | gangidikeerthireddy  |
-|  Lavanya Mengaraboina  | lavanyamengaraboina@gmail.com | LavanyaMengaraboina  |
-|  Shaila Mogalapu | sweety.shailamogalapu@gmail.com | shailamogalapu |
+| Name    | 
+|----------|
+|  Keerthi Reddy 
+|  Lavanya 
+|  Shaila 
 ### Structure of files:    
 In a directory called cpu_simulation, we placed the files in this format.    
 ### Components(directory)    
